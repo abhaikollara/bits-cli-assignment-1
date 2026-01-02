@@ -6,7 +6,7 @@
     - `touch plan.txt`
    Explanation: `cd` changes the working directory to the new `documents` folder, and `touch` creates an empty file named `plan.txt`.
 3. Commands
-    - `r`
+    - `echo "Project Alpha: Phase 1 starts on Monday." > plan.txt`
    Explanation: The `echo` command writes the specified string, and the `>` operator redirects that text into `plan.txt`, populating the file with content.
 4. Commands
     - `ls -l plan.txt`
