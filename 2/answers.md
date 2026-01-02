@@ -6,11 +6,16 @@
     - `touch plan.txt`
    Explanation: `cd` changes the working directory to the new `documents` folder, and `touch` creates an empty file named `plan.txt`.
 3. Commands
-    - `echo "Project Alpha: Phase 1 starts on Monday." > plan.txt`
+    - `r`
    Explanation: The `echo` command writes the specified string, and the `>` operator redirects that text into `plan.txt`, populating the file with content.
 4. Commands
     - `ls -l plan.txt`
    Explanation: The `ls` command with the `-l` (long format) flag displays the file's permissions, owner (your username), group, and size.
+
+   **Output**:
+   ```bash
+   -rw-r--r-- 1 coder coder 41 Jan 2 09:03 plan.txt
+   ```
 5. Commands
     - `cp plan.txt plan_copy.txt`
    Explanation: The `cp` (copy) command creates a duplicate of `plan.txt` and names the new file `plan_copy.txt`.
@@ -27,6 +32,20 @@
 9. Commands
     - `ls -R project_documents`
    Explanation: The `ls` command with the `-R` (recursive) flag lists the contents of the directory and all its subdirectories, showing the full structure.
+
+   **Output**:
+   ```bash
+   project_documents/:
+   archive  plan.txt
+
+   project_documents/archive:
+   plan_copy.txt
+   ```
 10. Commands
     - `realpath project_documents/archive/plan_copy.txt`
    Explanation: The `realpath` command resolves the full absolute path from the root directory (`/`) to the specific file.
+
+   **Output**:
+   ```bash
+   /home/coder/project_documents/archive/plan_copy.txt
+   ```
