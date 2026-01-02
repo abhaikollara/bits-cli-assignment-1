@@ -13,7 +13,7 @@
    ```
 
    **Screenshot**:
-   ![Output](../1.1.png)
+   ![Output](./1.1.png)
 2. **Commands**
     - `pwd`
     - `ls -l`
@@ -50,7 +50,7 @@
    ```
 
    **Screenshot**:
-   ![Output](../1.2.png)
+   ![Output](./1.2.png)
 3. **Commands**
     - `echo "Linux user environment verified" > user_info.txt`
 
@@ -64,7 +64,7 @@
    ```
 
    **Screenshot**:
-   ![Output](../1.3.png)
+   ![Output](./1.3.png)
 4. **Commands**
     - `wc -m user_info.txt`
 
@@ -77,7 +77,7 @@
    ```
 
    **Screenshot**:
-   ![Output](../1.4.png)
+   ![Output](./1.4.png)
 5. **Commands**
     - `man mkdir`
 
@@ -103,7 +103,7 @@
    ```
 
    **Screenshot**:
-   ![Output](../1.5.png)
+   ![Output](./1.5.png)
 6. **Commands**
     - `ls ~`
 
@@ -118,7 +118,7 @@
    ```
 
    **Screenshot**:
-   ![Output](../1.6.png)
+   ![Output](./1.6.png)
 7. **Commands**
     - `grep "admin" log.txt`
 
@@ -132,7 +132,7 @@
    ```
 
    **Screenshot**:
-   ![Output](../1.7.png)
+   ![Output](./1.7.png)
 8. **Commands**
     - `uname -r`
 
@@ -145,7 +145,7 @@
    ```
 
    **Screenshot**:
-   ![Output](../1.8.png)
+   ![Output](./1.8.png)
 9. **Commands**
     - `ping -c 4 www.google.com`
 
@@ -165,7 +165,7 @@
    ```
 
    **Screenshot**:
-   ![Output](../1.9.png)
+   ![Output](./1.9.png)
 10. **Commands**
     - `uptime`
 
@@ -178,4 +178,4 @@
    ```
 
    **Screenshot**:
-   ![Output](../1.10.png)
+   ![Output](./1.10.png)
